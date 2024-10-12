@@ -16,7 +16,7 @@ const projectsData = [
     title: "Personal Portfolio",
     description: "A personal website built with React and Tailwind CSS to showcase my work and skills.",
     image: portfolio,
-    link: "#",
+    link: "https://github.com/hiba-bint-irfan/Personal_portfolio",
   },
   {
     title: "Animal-Image Recognition",
