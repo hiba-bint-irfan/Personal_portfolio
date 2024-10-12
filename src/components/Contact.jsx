@@ -1,6 +1,6 @@
 import React from "react";
 import { PhoneIcon, EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/outline'; 
-import { FaLinkedin } from "react-icons/fa";
+
 
 const Contact = () => {
   return (
