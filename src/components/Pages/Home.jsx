@@ -6,6 +6,7 @@ import About from '../About';
 import Projects from '../Projects';
 import Skills from '../Skills';
 import Contact from '../Contact';
+import Experience from '../Experience';
 import { FaArrowUp } from 'react-icons/fa'; // Icon for the "Scroll to Top" button
 
 function Home() {
@@ -42,6 +43,9 @@ function Home() {
       </section>
       <section id="about">
         <About />
+      </section>
+      <section id="experience">
+        <Experience />
       </section>
       <section id="projects">
         <Projects />

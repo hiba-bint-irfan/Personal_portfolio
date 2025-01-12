@@ -60,6 +60,12 @@ const About = () => {
               <ul className="text-lg space-y-4 text-gray-400">
                 <li><strong className="text-white">Name:</strong> Hiba Irfan</li>
                 <li><strong className="text-white">Qualification:</strong> Bachelor in Computer Science</li>
+                <li className="flex justify-between">
+                <span><strong className="text-white">From:</strong>  PAF-KIET</span>
+                <span className="ml-auto">(2021-2025)</span>
+                </li>
+
+
                 <li><strong className="text-white">Location:</strong> Karachi</li>
                 <li><strong className="text-white">Languages:</strong> English, Urdu</li>
                 <li><strong className="text-white">Email:</strong> hibairfan003@gmail.com</li>
