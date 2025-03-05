@@ -15,18 +15,10 @@ const Contact = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <div className="bg-gray-900 shadow-lg p-6 text-center transition-transform transform hover:scale-105">
-            <div className="text-blue-500 mb-4 text-4xl">
-              <PhoneIcon className="h-10 w-10 mx-auto" />
-            </div>
-            <h3 className="text-xl font-semibold text-gray-400">Contact Number</h3>
-            <p className="text-gray-200 mt-2">
-              <a href="tel:+923200204636">+92 3200204636</a>
-            </p>
-          </div>
+        <div className="gap-8 mb-12 flex justify-center">
+          
 
-          <div className="bg-gray-900 shadow-lg p-6 text-center transition-transform transform hover:scale-105">
+          <div className="bg-gray-900 shadow-lg p-6 w-full text-center transition-transform transform hover:scale-105">
             <div className="text-blue-500 mb-4 text-4xl">
               <EnvelopeIcon className="h-10 w-10 mx-auto" />
             </div>
@@ -36,7 +28,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="bg-gray-900 shadow-lg p-6 text-center transition-transform transform hover:scale-105">
+          <div className="bg-gray-900 shadow-lg p-6 w-full text-center transition-transform transform hover:scale-105">
             <div className="text-blue-500 mb-4 text-4xl">
               <MapPinIcon className="h-10 w-10 mx-auto" />
             </div>

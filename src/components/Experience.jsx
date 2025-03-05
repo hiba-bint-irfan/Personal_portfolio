@@ -2,10 +2,15 @@ import React, { useEffect, useState } from 'react';
 
 const experiences = [
   {
+    title: 'Junior Full Stack Developer',
+    company: 'Trade Foresight',
+    duration: 'March 2024 - Present',
+    description: 'I’m currently working as a full-stack developer, using Python for the backend and Angular/React for the frontend to build and optimize applications.',
+  },{
     title: 'Frontend Developer Intern',
-    company: 'Inseyab',
-    duration: 'Nov 2024 - Present',
-    description: 'Working on Angular to develop applications and contributing to large-scale projects.',
+    company: 'Trade Foresight',
+    duration: 'Nov 2024 - Feb 2025',
+    description: 'I gained valuable experience working with Angular, focusing on UI design, layout improvements, and optimizing performance. I also developed a Python-based email verification system, conducted web scraping for data extraction, and performed thorough testing. Additionally, I contributed to frontend design, enhancing user interfaces and collaborating on finalizing designs for deployment.',
   },
   {
     title: 'Python Developer Intern',
@@ -13,6 +18,12 @@ const experiences = [
     duration: 'March 2024 - June 2024',
     description: 'Engaged in code reviews and explored AI and data science with NumPy and Pandas for ML algorithms.',
   },
+  {
+    title: 'Artificial Intelligence Intern (Remote)',
+    company: 'CodSoft',
+    duration: 'Mar 2024 - Apr 2024',
+    description: 'Develop small project using basic AI concept and build agent, game etc',
+  }
 ];
 
 const Experience = () => {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import hibaResume from '../assets/hiba_resume.pdf'; // Import the PDF
+
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -69,15 +69,9 @@ const About = () => {
                 <li><strong className="text-white">Location:</strong> Karachi</li>
                 <li><strong className="text-white">Languages:</strong> English, Urdu</li>
                 <li><strong className="text-white">Email:</strong> hibairfan003@gmail.com</li>
-                <li><strong className="text-white">Phone:</strong> +92 3200204636</li>
+                
               </ul>
-              <a
-                href={hibaResume} // Use the imported variable for the href
-                className="inline-block bg-blue-500 text-white m-4 py-3 px-8 rounded-full hover:bg-blue-600 transition-all duration-300 shadow-md hover:shadow-lg"
-                download="hiba_resume.pdf" // This attribute makes the browser download the file instead of navigating to it
-              >
-                Download CV
-              </a>
+             
             </div>
           </div>
         </div>

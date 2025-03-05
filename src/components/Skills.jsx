@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 
 const skillsData = [
   { name: "Python", percentage: 80 },
-  { name: "React", percentage: 65 },
+  {name:"Angular", percentage: 70},
+  { name: "React", percentage: 50 },
   { name: "HTML", percentage: 90 },
-  { name: "C#", percentage: 50 },
   { name: "SQL", percentage: 60 },
   { name: "FastAPI", percentage: 40 },
   {name: "Javascript", percentage: 40},
   {name: "AI", percentage: 60},
-  {name:"Angular", percentage: 60}
+  
 ];
 
 const Skills = () => {
