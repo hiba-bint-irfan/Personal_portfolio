@@ -15,29 +15,30 @@ const Contact = () => {
         </div>
 
         {/* Contact Information */}
-        <div className="gap-8 mb-12 flex justify-center">
-          
+        <div className="gap-8 mb-12 flex flex-col md:flex-row justify-center items-center">
+  {/* Email Card */}
+  <div className="bg-gray-900 shadow-lg p-6 w-full md:w-1/2 text-center transition-transform transform hover:scale-105">
+    <div className="text-blue-500 mb-4 text-4xl">
+      <EnvelopeIcon className="h-10 w-10 mx-auto" />
+    </div>
+    <h3 className="text-xl font-semibold text-gray-400">Email Address</h3>
+    <p className="text-gray-200 mt-2">
+      <a href="mailto:hibairfan003@gmail.com">hibairfan003@gmail.com</a>
+    </p>
+  </div>
 
-          <div className="bg-gray-900 shadow-lg p-6 w-full text-center transition-transform transform hover:scale-105">
-            <div className="text-blue-500 mb-4 text-4xl">
-              <EnvelopeIcon className="h-10 w-10 mx-auto" />
-            </div>
-            <h3 className="text-xl font-semibold text-gray-400">Email Address</h3>
-            <p className="text-gray-200 mt-2">
-              <a href="mailto:hibairfan003@gmail.com">hibairfan003@gmail.com</a>
-            </p>
-          </div>
+  {/* Address Card */}
+  <div className="bg-gray-900 shadow-lg p-6 w-full md:w-1/2 text-center transition-transform transform hover:scale-105">
+    <div className="text-blue-500 mb-4 text-4xl">
+      <MapPinIcon className="h-10 w-10 mx-auto" />
+    </div>
+    <h3 className="text-xl font-semibold text-gray-400">Address</h3>
+    <p className="text-gray-200 mt-2">
+      Karachi, Pakistan
+    </p>
+  </div>
+</div>
 
-          <div className="bg-gray-900 shadow-lg p-6 w-full text-center transition-transform transform hover:scale-105">
-            <div className="text-blue-500 mb-4 text-4xl">
-              <MapPinIcon className="h-10 w-10 mx-auto" />
-            </div>
-            <h3 className="text-xl font-semibold text-gray-400">Address</h3>
-            <p className="text-gray-200 mt-2">
-              Karachi, Pakistan
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );
